@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           Brad’s Styles
+@namespace      https://github.com/bdougherty/user-styles
+@version        1.0.0
+@homepageURL    https: //github.com/bdougherty/user-styles
+@updateURL      https://raw.githubusercontent.com/bdougherty/user-styles/master/main.user.css
+@license        CC-BY-SA-4.0
+@author         Brad Dougherty (https://brad.is)
+==/UserStyle== */
+
+@-moz-document url-prefix("http") {
+	html,
+	body,
+	* {
+		-moz-tab-size: 4 !important;
+		tab-size: 4 !important;
+		-webkit-font-smoothing: auto !important;
+		-moz-osx-font-smoothing: auto !important;
+	}
+}
