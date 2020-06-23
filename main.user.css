@@ -18,3 +18,17 @@
 		-moz-osx-font-smoothing: auto !important;
 	}
 }
+
+@-moz-document domain("github.com") {
+	.Box-row:not(:last-child) {
+		border-bottom: 1px solid #e1e4e8;
+	}
+	
+	.js-details-container .Details:not(.Details--on) .Details-content--hidden {
+		display: block !important;
+	}
+	
+	.js-details-container .hidden-text-expander {
+		display: none !important;
+	}
+}
