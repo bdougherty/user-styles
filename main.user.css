@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Brad’s Styles
 @namespace      https://github.com/bdougherty/user-styles
-@version        3.0.0
+@version        3.1.0
 @homepageURL    https://github.com/bdougherty/user-styles
 @updateURL      https://raw.githubusercontent.com/bdougherty/user-styles/master/main.user.css
 @license        CC-BY-SA-4.0
@@ -20,6 +20,27 @@
 }
 
 @-moz-document domain("github.com") {
+	:root {
+		--max-width: 1280px;
+	}
+
+	.pagehead {
+		box-shadow: inset 0 -1px 0 #e1e4e8;
+		margin-bottom: 32px !important;
+	}
+
+	.pagehead > * {
+		max-width: var(--max-width);
+		margin: auto;
+	}
+
+	body.full-width-p-0 .new-discussion-timeline,
+	.container-xl {
+		max-width: var(--max-width) !important;
+		padding-left: 32px !important;
+		padding-right: 32px !important;
+	}
+
 	.repository-content .Box-row.border-top-0.js-navigation-item {
 		border-top: 1px solid #e1e4e8 !important;
 	}
@@ -33,7 +54,7 @@
 		border: 1px solid #e1e4e8 !important;
 	}
 
-	.js-details-container .Details:not(.Details--on) .Details-content--hidden {
+	.file-navigation + .Box .js-details-container.Details:not(.Details--on) .Details-content--hidden {
 		display: block !important;
 	}
 
