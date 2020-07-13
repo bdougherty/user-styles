@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Brad’s Styles
 @namespace      https://github.com/bdougherty/user-styles
-@version        3.2.0
+@version        3.3.0
 @homepageURL    https://github.com/bdougherty/user-styles
 @updateURL      https://raw.githubusercontent.com/bdougherty/user-styles/master/main.user.css
 @license        CC-BY-SA-4.0
@@ -41,24 +41,8 @@
 		padding-right: 32px !important;
 	}
 
-	.repository-content .Box-row.border-top-0.js-navigation-item {
-		border-top: 1px solid #e1e4e8 !important;
-	}
-
-	.repository-content .Box-row.border-top-0.js-navigation-item:nth-of-type(2) {
-		border-top-color: transparent !important;
-	}
-
 	.repository-content .Box-header.bg-white {
 		background-color: #f6f8fa !important;
 		border: 1px solid #e1e4e8 !important;
-	}
-
-	.repository-content .js-details-container:not(markdown-toolbar).Details:not(.Details--on) .Details-content--hidden {
-		display: block !important;
-	}
-
-	.repository-content .js-details-container:not(markdown-toolbar).Details:not(.Details--on) .Details-content--hidden pre {
-		display: none !important;
 	}
 }
