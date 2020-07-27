@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Brad’s Styles
 @namespace      https://github.com/bdougherty/user-styles
-@version        3.3.0
+@version        3.4.0
 @homepageURL    https://github.com/bdougherty/user-styles
 @updateURL      https://raw.githubusercontent.com/bdougherty/user-styles/master/main.user.css
 @license        CC-BY-SA-4.0
@@ -24,15 +24,17 @@
 		--max-width: 1280px;
 	}
 
-	.pagehead {
-		box-shadow: inset 0 -1px 0 #e1e4e8;
+    #js-pjax-container > div:first-child,
+    #js-repo-pjax-container > div:first-child {
+        box-shadow: inset 0 -1px 0 #e1e4e8;
 		margin-bottom: 32px !important;
-	}
+    }
 
-	.pagehead > * {
-		max-width: var(--max-width);
+    #js-pjax-container > div:first-child > *,
+    #js-repo-pjax-container > div:first-child > * {
+        max-width: var(--max-width);
 		margin: auto;
-	}
+    }
 
 	body.full-width-p-0 .new-discussion-timeline,
 	.container-xl {
